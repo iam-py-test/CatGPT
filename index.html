@@ -76,7 +76,7 @@
 
                 let newBubble = document.createElement("div");
                 newBubble.classList.add("chat-bubble", "user-bubble");
-                newBubble.innerHTML = userInput.value;
+                newBubble.innerText = userInput.value;
                 newBubbleContainer.appendChild(newBubble);
                 chatArea.appendChild(newBubbleContainer);
                 userInput.value = ""; // Clear the input vield
